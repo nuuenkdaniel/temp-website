@@ -2,34 +2,45 @@ import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx}",
+    "./src/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
       colors: {
-        // A calming earth-tone palette
-        sage: {
-          50: '#f4f7f5',
-          100: '#e3ebe6',
-          200: '#c5d9ce',
-          500: '#6b9c7f', // Primary brand color
-          700: '#4a6f58',
-          900: '#2d4036',
+        primary: {
+          50:  "#f8fbfd",
+          100: "#eef6fb",
+          200: "#d9ecf7",
+          300: "#bcdcf1",
+          400: "#9bc7e6",
+          500: "#7fb2da", // main accent (very soft)
+          600: "#689ac5",
+          700: "#547fa6",
+          800: "#466889",
+          900: "#3c5771",
         },
-        stone: {
-          50: '#fafaf9',
-          100: '#f5f5f4',
-          800: '#292524', // Main text color
+        neutral: {
+          50: "#fafafa",
+          100: "#f4f4f5",
+          200: "#e4e4e7",
+          300: "#d4d4d8",
+          400: "#a1a1aa",
+          500: "#71717a",
+          600: "#52525b",
+          700: "#3f3f46",
+          800: "#27272a",
+          900: "#18181b",
         },
       },
       fontFamily: {
-        sans: ['var(--font-geist-sans)', 'sans-serif'],
-        serif: ['var(--font-geist-serif)', 'serif'], // Good for headers
+        sans: ["var(--font-geist-sans)", "sans-serif"],
+        serif: ["var(--font-geist-serif)", "serif"],
       },
     },
   },
-  plugins:,
+  plugins: [],
 };
+
 export default config;
+

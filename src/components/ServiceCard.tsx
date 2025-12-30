@@ -32,13 +32,13 @@ export default function ServiceCard({ title, description, price, duration }: Ser
       {/* Content Area */}
       <div className="p-6 flex flex-col flex-grow">
         <div className="flex justify-between items-start mb-4">
-          <h3 className="text-xl font-serif text-stone-800 font-medium">{title}</h3>
+          <h3 className="text-xl font-serif text-primary-800 font-medium">{title}</h3>
           <span className="text-sage-700 font-bold bg-sage-50 px-3 py-1 rounded-full text-sm">
             {price}
           </span>
         </div>
 
-        <p className="text-stone-500 text-sm leading-relaxed mb-6 flex-grow">
+        <p className="text-primary-500 text-sm leading-relaxed mb-6 flex-grow">
           {description}
         </p>
 
@@ -48,7 +48,7 @@ export default function ServiceCard({ title, description, price, duration }: Ser
             {duration}
           </div>
           
-          <button className="text-stone-800 text-sm font-medium flex items-center group/btn hover:text-sage-700 transition-colors">
+          <button className="text-primary-800 text-sm font-medium flex items-center group/btn hover:text-sage-700 transition-colors">
             Book Now 
             <ArrowRight className="w-4 h-4 ml-1 group-hover/btn:translate-x-1 transition-transform" />
           </button>
