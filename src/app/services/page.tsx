@@ -15,6 +15,13 @@ const treatments = [
     duration: "75 min",
     description: "Smooth, heated stones are placed on specific body points. The heat penetrates deep into muscle tissue for profound relaxation.",
     benefits: [ "Hi", "Hello", "Hehe" ],
+  },
+  {
+    title: "Test",
+    price: "$2000000",
+    duration: "2 years",
+    description: "Death Defying",
+    benefits: [ "Invincibility", "Strength Boost", "Speed Boost" ],
   }
 ];
 
