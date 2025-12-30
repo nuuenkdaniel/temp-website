@@ -18,13 +18,13 @@ export default function TherapistCard({
       <div className="flex gap-6 p-6 items-top">
         {/* Image section (only renders if imageSrc exists) */}
         {imageSrc && (
-          <div className="relative w-28 h-28 shrink-0 rounded-xl overflow-hidden bg-neutral-100">
+          <div className="relative w-40 h-40 shrink-0 overflow-hidden bg-neutral-100">
             <Image
               src={imageSrc}
               alt={name}
               fill
               className="object-cover"
-              sizes="(max-width: 768px) 100vw, 768px"
+              sizes="(max-width: 800px) 200vw, 768px"
             />
           </div>
         )}

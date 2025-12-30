@@ -7,15 +7,10 @@ export default function Home() {
     <main className="min-h-screen bg-neutral-50">
       <Navbar />
 
-      <section className="relative pt-12 pb-24 lg:pt-20 lg:pb-32 overflow-hidden">
-        <div className="max-w-7xl mx-auto px-8 grid lg:grid-cols-2 gap-12 items-center">
+      <section className="relative pt-12 pb-24 lg:pt-20 lg:pb-32 overflow-hidden bg-transparent">
+        <div className="max-w-7xl mx-auto px-8 py-8 grid lg:grid-cols-2 gap-12 items-center">
           
           <div className="space-y-8 relative z-10">
-            {/* <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary-50 text-primary-900 text-sm font-medium border border-primary-100"> */}
-            {/*   <Star className="w-3 h-3 fill-primary-500 text-primary-500" /> */}
-            {/*   <span>Voted Best Spa 2024</span> */}
-            {/* </div> */}
-            
             <h1 className="text-5xl lg:text-7xl font-serif text-neutral-900 leading-[1.1]">
               Find your flow, <br/>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-primary-800">restore your calm.</span>
